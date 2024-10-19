@@ -1,0 +1,26 @@
+#!/bin/bash -e
+
+# Create a temporary directory
+TMPDIR=$(mktemp -d)
+trap 'rm -rf "$TMPDIR"' EXIT
+
+# Take a screenshot of a selected area and save it as screenshot.png in the temporary directory
+gnome-screenshot -a -f "$TMPDIR/screenshot.png"
+
+# Ensure screenshot was taken
+if [ ! -s "$TMPDIR/screenshot.png" ]; then
+    echo "Screenshot failed to capture." >&2
+    exit 1
+fi
+
+# Process the screenshot with Tesseract and save the result to a text file in the temporary directory
+tesseract "$TMPDIR/screenshot.png" "$TMPDIR/output"
+
+# Ensure OCR was performed
+if [ ! -s "$TMPDIR/output.txt" ]; then
+    echo "OCR failed to process any text." >&2
+    exit 1
+fi
+
+# Copy the result to the clipboard, ignoring all non-ASCII characters
+tr -cd '\11\12\15\40-\176' < "$TMPDIR/output.txt" | perl -pe 'chomp if eof' | xclip -selection clipboard

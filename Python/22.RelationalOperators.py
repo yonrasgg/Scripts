@@ -1,10 +1,10 @@
-num1 =  int(input("Ingrese un número: ")) # Ingrese un número: 5
-num2 =  int(input("Ingrese otro número: ")) # Ingrese otro número: 10
+num1 = int(input("Enter a number: "))  # Enter a number: 5
+num2 = int(input("Enter another number: "))  # Enter another number: 10
 
-print(num1 > num2) # Imprime: False
-print(num1 < num2) # Imprime: True
-print(num1 >= num2) # Imprime: False
-print(num1 <= num2) # Imprime: True
-print(num1 == num2) # Imprime: False
-print(num1 != num2) # Imprime: True
-print(num1 is num2)  # Imprime: False
+print(num1 > num2)  # Prints: False
+print(num1 < num2)  # Prints: True
+print(num1 >= num2)  # Prints: False
+print(num1 <= num2)  # Prints: True
+print(num1 == num2)  # Prints: False
+print(num1 != num2)  # Prints: True
+print(num1 is num2)  # Prints: False

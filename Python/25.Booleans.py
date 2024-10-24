@@ -1,5 +1,5 @@
-verdadero = True # Asigna el valor True a la variable verdadero
-falso = False  # Asigna el valor False a la variable falso
+true = True # Assigns the value True to the variable true
+false = False  # Assigns the value False to the variable false
 
-print(type(verdadero)) # Imprime: True
-print(type(falso)) # Imprime: False
+print(type(true)) # Prints: <class 'bool'>
+print(type(false)) # Prints: <class 'bool'>

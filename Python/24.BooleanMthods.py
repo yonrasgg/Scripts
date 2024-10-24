@@ -1,13 +1,13 @@
-cadena = 'Estoy mostrando un ejemplo de un método booleano para strings'
-cadena2 = 'estoy mostrando un ejemplo de un método booleano para strings'
-cadena3 = 'ESTOY MOSTRANDO UN EJEMPLO DE UN MÉTODO BOOLEANO PARA STRINGS'
-cadena4 = '1234567890'
+string1 = 'I am showing an example of a boolean method for strings'
+string2 = 'i am showing an example of a boolean method for strings'
+string3 = 'I AM SHOWING AN EXAMPLE OF A BOOLEAN METHOD FOR STRINGS'
+string4 = '1234567890'
 
-print(cadena.startswith('Estoy')) # Imprime: True
-print(cadena.endswith('strings')) # Imprime: True
-print(cadena.isalnum()) # Imprime: False
-print(cadena4.isalnum()) # Imprime: True
-print(cadena.isalpha()) # Imprime: False
-print(cadena.isdigit()) # Imprime: False
-print(cadena2.islower()) # Imprime: True
-print(cadena3.isupper()) # Imprime: True
+print(string1.startswith('I am')) # Prints: True
+print(string1.endswith('strings')) # Prints: True
+print(string1.isalnum()) # Prints: False
+print(string4.isalnum()) # Prints: True
+print(string1.isalpha()) # Prints: False
+print(string1.isdigit()) # Prints: False
+print(string2.islower()) # Prints: True
+print(string3.isupper()) # Prints: True

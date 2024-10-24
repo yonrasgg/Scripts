@@ -1,13 +1,13 @@
-cadena = 'Esto es un metodo de cadena de texto en Python'
+string = 'This is a string method in Python'
 
-print(cadena.upper()) # Imprime: ESTO ES UN METODO DE CADENA DE TEXTO EN PYTHON`
-print(cadena.lower()) # Imprime: esto es un metodo de cadena de texto en python
-print(cadena.capitalize()) # Imprime: Esto es un metodo de cadena de texto en python`
-print(cadena.title()) # Imprime: Esto Es Un Metodo De Cadena De Texto En Python
-print(cadena.swapcase()) # Imprime: eSTO ES UN METODO DE CADENA DE TEXTO EN pYTHON
-print(cadena.replace('Python', 'C++')) # Imprime: Esto es un metodo de cadena de texto en C++
-print(cadena.replace('Python', 'C++', 1)) # Imprime: Esto es un metodo de cadena de texto en C++ (Solo reemplaza la primera coincidencia)
-print(cadena.count('e')) # Imprime: 6
-print(cadena.count('e', 0, 15)) # Imprime: 3
-print(cadena.find('e')) # Imprime: 3
-print(cadena.find('e', 0, 15)) # Imprime: 3
+print(string.upper()) # Prints: THIS IS A STRING METHOD IN PYTHON
+print(string.lower()) # Prints: this is a string method in python
+print(string.capitalize()) # Prints: This is a string method in python
+print(string.title()) # Prints: This Is A String Method In Python
+print(string.swapcase()) # Prints: tHIS IS A STRING METHOD IN pYTHON
+print(string.replace('Python', 'C++')) # Prints: This is a string method in C++
+print(string.replace('Python', 'C++', 1)) # Prints: This is a string method in C++ (Only replaces the first occurrence)
+print(string.count('i')) # Prints: 4
+print(string.count('i', 0, 15)) # Prints: 2
+print(string.find('i')) # Prints: 2
+print(string.find('i', 0, 15)) # Prints: 2

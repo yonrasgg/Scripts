@@ -1,11 +1,11 @@
-cadena1 = 'Hola, mundo!'
-cadena2 = "Bienvenido a Python"
-cadena3 = "Esta cadena contiene una 'comilla simple'"
-cadena4 = 'Esta cadena contiene una "comilla doble"'
-cadena5 = "Esta cadena contiene una \"comilla doble\" escapada"
+string1 = 'Hello, world!'
+string2 = "Welcome to Python"
+string3 = "This string contains a 'single quote'"
+string4 = 'This string contains a "double quote"'
+string5 = "This string contains an \"escaped double quote\""
 
-print(cadena1) # Imprime: Hola, mundo!
-print(cadena2) # Imprime: Bienvenido a Python
-print(cadena3) # Imprime: Esta cadena contiene una 'comilla simple'
-print(cadena4) # Imprime: Esta cadena contiene una "comilla doble"
-print(cadena5) # Imprime: Esta cadena contiene una "comilla doble" escapada
+print(string1) # Prints: Hello, world!
+print(string2) # Prints: Welcome to Python
+print(string3) # Prints: This string contains a 'single quote'
+print(string4) # Prints: This string contains a "double quote"
+print(string5) # Prints: This string contains an "escaped double quote"

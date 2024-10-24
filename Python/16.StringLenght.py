@@ -1,6 +1,6 @@
-cadena = "Este es un ejemplo de Substring (Longitud de una Cadena de Texto)"
+string = "This is an example of Substring (Length of a Text String)"
 
-print(len(cadena)) # Imprime: 65
-print(len(cadena[0 : 15])) # Imprime: 15
-print(len(cadena[0 : 15]) + len(cadena[16 : 65])) # Imprime: 64
-print(len(cadena[0 : 15]) + len(cadena[16 : 65]) + 1) # Imprime: 65
+print(len(string)) # Prints: 65
+print(len(string[0 : 15])) # Prints: 15
+print(len(string[0 : 15]) + len(string[16 : 65])) # Prints: 64
+print(len(string[0 : 15]) + len(string[16 : 65]) + 1) # Prints: 65

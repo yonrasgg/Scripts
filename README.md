@@ -30,6 +30,8 @@ For more detailed instructions on installing dependencies and setting up your en
 
 - [ ] Bash
     - [X] [OCR Bash Script:](https://gaaspkm.online/posts/ocr-bash-script/)
+- [ ] Python
+    - [X] Python Essentials
 
 More scripts and languages are added frequently! Stay tuned for updates.
 

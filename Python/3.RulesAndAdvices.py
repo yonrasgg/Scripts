@@ -1,36 +1,36 @@
-# 1. Palabras clave incorporadas en Python
+# 1. Built-in keywords in Python
 import keyword
-print(keyword.kwlist)  # Imprime todas las palabras clave de Python
+print(keyword.kwlist)  # Prints all Python keywords
 
-# 2. Las variables deben empezar con una letra o un guión bajo
-variable1 = "válida"
-_1variable = "válida"
-# 1variable = "inválida"  # Descomenta para ver el error
+# 2. Variables must start with a letter or an underscore
+variable1 = "valid"
+_1variable = "valid"
+# 1variable = "invalid"  # Uncomment to see the error
 
-# 3. Las variables son sensibles a mayúsculas y minúsculas
-Variable = "valor1"
-variable = "valor2"
-VARIABLE = "valor3"
-# Imprime los valores de las variables
+# 3. Variables are case-sensitive
+Variable = "value1"
+variable = "value2"
+VARIABLE = "value3"
+# Prints the values of the variables
 print(Variable, variable, VARIABLE) 
 
-# 4. No se pueden usar espacios en los nombres de las variables
-mi_variable = "válida"
-# mi variable = "inválida"  # Descomenta para ver el error
+# 4. Spaces are not allowed in variable names
+my_variable = "valid"
+# my variable = "invalid"  # Uncomment to see the error
 
-# 5. Evita usar los caracteres especiales de Python en los nombres de las variables
-# mi=variable = "inválida"  # Descomenta para ver el error
+# 5. Avoid using Python special characters in variable names
+# my=variable = "invalid"  # Uncomment to see the error
 
-# 6. Usa nombres descriptivos y significativos para las variables
-lista_de_nombres = ["Alice", "Bob", "Charlie"]
-# Imprime la lista de nombres
-print(lista_de_nombres)
+# 6. Use descriptive and meaningful names for variables
+list_of_names = ["Alice", "Bob", "Charlie"]
+# Prints the list of names
+print(list_of_names)
 
-# 7. Las constantes se escriben en mayúsculas
+# 7. Constants are written in uppercase
 PI = 3.14159
-# Imprime el valor de PI
+# Prints the value of PI
 print(PI)
 
-# Palabras reservadas en Python
-# Intenta usar una palabra reservada como nombre de variable
-# for = "inválida"  # Descomenta para ver el error
+# Reserved words in Python
+# Try using a reserved word as a variable name
+# for = "invalid"  # Uncomment to see the error

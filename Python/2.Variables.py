@@ -1,31 +1,31 @@
-# Numeros enteros
-num_entero = 10  # Este es un int
+# Integer numbers
+integer_num = 10  # This is an int
 
-# Numeros flotantes
-num_flotante = 10.5  # Este es un float
+# Floating point numbers
+floating_num = 10.5  # This is a float
 
-# Cadena de caracteres
-cadena = "Hola mundo"  # Este es un str
+# String
+string = "Hello world"  # This is a str
 
-# Booleanos
-verdadero = True  # Este es un bool
-falso = False  # Este es un bool
+# Booleans
+true_value = True  # This is a bool
+false_value = False  # This is a bool
 
-# Listas
-lista = [1, 2, 3, "hola", True]  # Esta es una list
+# Lists
+list_example = [1, 2, 3, "hello", True]  # This is a list
 
-# Tuplas
-tupla = (1, 2, 3, "hola", True)  # Esta es una tuple
+# Tuples
+tuple_example = (1, 2, 3, "hello", True)  # This is a tuple
 
-# Conjuntos
-conjunto = {1, 2, 3, "hola", True}  # Este es un set
+# Sets
+set_example = {1, 2, 3, "hello", True}  # This is a set
 
-# Diccionarios
-diccionario = {
-    "nombre": "Juan",
-    "edad": 30,
-    "es_estudiante": True
-}  # Este es un dict
+# Dictionaries
+dictionary = {
+    "name": "John",
+    "age": 30,
+    "is_student": True
+}  # This is a dict
 
-# None (ausencia de valor)
-sin_valor = None  # Este es un NoneType
+# None (absence of value)
+no_value = None  # This is a NoneType
